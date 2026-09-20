@@ -1,0 +1,6 @@
+{
+  "name": "Algae-Plast Fuel Portfolio",
+  "description": "Financial Times-style editorial portfolio and venture dossier for Algae-Plast Fuel, a closed-loop plastic-to-fuel and algae bioreactor system in Bangladesh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
