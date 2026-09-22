@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Mail, Send, Check, Copy, Building, MessageSquare, Clock, MapPin } from 'lucide-react';
 
 export const ContactSection: React.FC = () => {
-  const email = 'syedadnanrahman@gmail.com';
+  const email = 'algae.plast.fuel@gmail.com';
   const [copied, setCopied] = useState(false);
   const [formData, setFormData] = useState({
     name: '',
