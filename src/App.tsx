@@ -8,6 +8,7 @@ import { Proto1AlgaeSection } from './components/Proto1AlgaeSection';
 import { Proto2IncubatorSection } from './components/Proto2IncubatorSection';
 import { TeamSection } from './components/TeamSection';
 import { ReferencesSection } from './components/ReferencesSection';
+import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
 
 export default function App() {
@@ -33,6 +34,7 @@ export default function App() {
         'proto-2-incubator',
         'our-team',
         'references',
+        'contact-us',
       ];
 
       const scrollPosition = window.scrollY + 180;
@@ -80,6 +82,9 @@ export default function App() {
 
         {/* Bottom Section: References */}
         <ReferencesSection />
+
+        {/* Contact Us Section */}
+        <ContactSection />
       </main>
 
       {/* Clean FT Broadsheet Footer */}

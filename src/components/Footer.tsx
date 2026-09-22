@@ -83,6 +83,12 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           >
             References
           </button>
+          <button
+            onClick={() => onNavigate('contact-us')}
+            className="hover:text-white hover:underline text-[#d9c8b8] cursor-pointer"
+          >
+            Contact Us
+          </button>
         </div>
 
         {/* Disclaimers & Copyright */}

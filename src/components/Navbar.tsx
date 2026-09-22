@@ -18,6 +18,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection, onNavigate }) => 
     { id: 'proto-2-incubator', label: 'Proto 2: Stainless Incubator' },
     { id: 'our-team', label: 'Our Team' },
     { id: 'references', label: 'References' },
+    { id: 'contact-us', label: 'Contact Us' },
   ];
 
   return (
